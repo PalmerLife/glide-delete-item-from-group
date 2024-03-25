@@ -1,0 +1,23 @@
+{
+  "name": "Number Series Modifier",
+  "description": "Removes a specified number from a series and decrements by one all numbers greater than the specified number.",
+  "author": "Your Name <your@email.com>",
+  "params": [
+    {
+      "name": "series",
+      "displayName": "Number Series",
+      "type": "string",
+      "description": "Comma-separated series of numbers. Example: 3,2,5,4,1"
+    },
+    {
+      "name": "numberToRemove",
+      "displayName": "Number to Remove",
+      "type": "number",
+      "description": "The specific number to remove from the series."
+    }
+  ],
+  "result": {
+    "type": "string",
+    "description": "The modified number series after removal and decrement operations."
+  }
+}
